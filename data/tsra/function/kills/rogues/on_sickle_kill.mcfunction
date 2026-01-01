@@ -1,5 +1,5 @@
-# Increment kill counter
-scoreboard players add @s tsra_sickle_kills 1
+# Increment kill counter only if holding a sickle
+execute if items entity @s weapon.mainhand #tsra:sickles run scoreboard players add @s tsra_sickle_kills 1
 
 # If 10+, grant the completion advancement (Mastery I)
 execute if score @s tsra_sickle_kills matches 10.. run advancement grant @s only tsra:kills/rogues/advancements/sickle/sickle_mastery_01
@@ -13,6 +13,6 @@ execute if score @s tsra_sickle_kills matches 125.. run advancement grant @s onl
 # If 750+, grant the completion advancement (Mastery IV)
 execute if score @s tsra_sickle_kills matches 750.. run advancement grant @s only tsra:kills/rogues/advancements/sickle/sickle_mastery_04
 
-# Revoke the trigger advancement so it can fire again next kill (until completion)
-execute if score @s tsra_sickle_kills matches ..749 run advancement revoke @s only tsra:kills/rogues/triggers/sickle_kill_trigger
+# Revoke the trigger advancement so it can fire again next kill
+advancement revoke @s only tsra:kills/rogues/triggers/sickle_kill_trigger
 
