@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "eternal_starlight:thermal_springstone_bricks"
+    },
+    "title": "Dungeon Mastery V",
+    "description": "Find all 28 unique dungeons.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
+

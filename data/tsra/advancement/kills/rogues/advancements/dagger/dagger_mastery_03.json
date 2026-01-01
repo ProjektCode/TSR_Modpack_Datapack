@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "id": "rogues:golden_dagger" },
+    "title": "Dagger Mastery III",
+    "description": "Get 125 kills with a dagger.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}
+

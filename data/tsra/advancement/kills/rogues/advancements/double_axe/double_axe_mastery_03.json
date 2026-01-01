@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "id": "rogues:diamond_double_axe" },
+    "title": "Double Axe Mastery III",
+    "description": "Get 125 kills with a double axe.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}
+

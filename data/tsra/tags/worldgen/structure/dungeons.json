@@ -1,0 +1,30 @@
+{
+  "values": [
+    "minecraft:stronghold",
+    "adventuredungeons:bygonedungeon",
+    "adventuredungeons:coldlair",
+    "adventuredungeons:murkydungeon",
+    "adventuredungeons:trialrooms",
+    "adventuredungeons:ruins_desert",
+    "adventuredungeons:ruins_snow",
+    "adventuredungeons:ruins_standard",
+    "adventuredungeons:underground_camp",
+    "dungeonz:dark_dungeon_structure",
+    "dungeonz:desert_dungeon_structure",
+    "dungeonz:temple_dungeon_structure",
+    "awesomedungeon:abandoned_oak_palace",
+    "awesomedungeon:better_default_jungle_temple",
+    "awesomedungeon:desert_temple_husk",
+    "awesomedungeon:swamp_big_temple",
+    "awesomedungeon:the_ztower",
+    "awesomedungeon:witch_castle",
+    "awesomedungeonend:end_palace",
+    "awesomedungeonend:end_pill",
+    "awesomedungeonend:end_hardcastle",
+    "awesomedungeonnether:nth_absi_palace",
+    "awesomedungeonnether:nth_giant_crimson_tree",
+    "aether:bronze_dungeon",
+    "aether:gold_dungeon",
+    "aether:silver_dungeon"
+  ]
+}

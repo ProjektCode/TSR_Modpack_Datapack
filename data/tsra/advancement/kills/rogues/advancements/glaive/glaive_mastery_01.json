@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": { "id": "rogues:iron_glaive" },
+    "title": "Glaive Mastery I",
+    "description": "Get 10 kills with a glaive.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}
+
