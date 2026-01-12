@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": " healing wands.Groups[1].Value.ToUpper() ealing  healing wands.Groups[1].Value.ToUpper() ands Mastery III",
+    "description": "Get 125 kills with a  healing wands.groups[1].value.toupper() ealing  healing wands.groups[1].value.toupper() ands.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}

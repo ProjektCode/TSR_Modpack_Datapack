@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": " damage staffs.Groups[1].Value.ToUpper() amage  damage staffs.Groups[1].Value.ToUpper() taffs Mastery II",
+    "description": "Get 25 kills with a  damage staffs.groups[1].value.toupper() amage  damage staffs.groups[1].value.toupper() taffs.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}

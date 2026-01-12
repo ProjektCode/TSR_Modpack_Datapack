@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "tag": "shatteredrealms:heavy_crossbows"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shatteredrealms:weapons/archers/on_heavy_crossbows_kill"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": " great swords.Groups[1].Value.ToUpper() reat  great swords.Groups[1].Value.ToUpper() words Mastery II",
+    "description": "Get 25 kills with a  great swords.groups[1].value.toupper() reat  great swords.groups[1].value.toupper() words.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}

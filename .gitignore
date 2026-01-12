@@ -1,0 +1,54 @@
+# ===========================================
+# Minecraft Datapack .gitignore
+# ===========================================
+
+# ----- OS Generated Files -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ----- IDE / Editor Files -----
+.idea/
+.vscode/
+.spyglassmc/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ----- Backup Files -----
+*.bak
+*.backup
+*.old
+*~
+
+# ----- Temporary Files -----
+*.tmp
+*.temp
+*.log
+
+# ----- Build / Distribution -----
+*.zip
+dist/
+build/
+output/
+
+# ----- Minecraft Specific -----
+# World folders (if testing locally)
+world/
+world_*/
+
+# Server files (if bundled)
+server.properties
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+usercache.json
+*.jar
+
+AGENTS.md

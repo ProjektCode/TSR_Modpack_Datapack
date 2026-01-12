@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "tag": "shatteredrealms:short_bows"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shatteredrealms:weapons/archers/on_short_bows_kill"
+  }
+}

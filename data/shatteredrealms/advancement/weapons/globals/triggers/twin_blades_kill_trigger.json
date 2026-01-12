@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "tag": "shatteredrealms:twin_blades"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shatteredrealms:weapons/globals/on_twin_blades_kill"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "tag": "shatteredrealms:double_axes"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shatteredrealms:weapons/rogues/on_double_axe_kill"
+  }
+}
+

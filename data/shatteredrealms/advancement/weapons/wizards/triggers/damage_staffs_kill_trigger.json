@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "tag": "shatteredrealms:damage_staffs"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shatteredrealms:weapons/wizards/on_damage_staffs_kill"
+  }
+}

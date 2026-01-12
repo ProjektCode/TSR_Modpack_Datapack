@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": " rapid crossbows.Groups[1].Value.ToUpper() apid  rapid crossbows.Groups[1].Value.ToUpper() rossbows Mastery I",
+    "description": "Get 10 kills with a  rapid crossbows.groups[1].value.toupper() apid  rapid crossbows.groups[1].value.toupper() rossbows.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}

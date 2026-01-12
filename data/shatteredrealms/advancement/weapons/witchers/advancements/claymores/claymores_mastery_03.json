@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": " claymores.Groups[1].Value.ToUpper() laymores Mastery III",
+    "description": "Get 125 kills with a  claymores.groups[1].value.toupper() laymores.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}

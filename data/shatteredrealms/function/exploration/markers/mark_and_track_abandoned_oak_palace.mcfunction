@@ -1,0 +1,2 @@
+scoreboard players set @s sr_visited_abandoned_oak_palace 1
+function shatteredrealms:exploration/track_dungeon_visit

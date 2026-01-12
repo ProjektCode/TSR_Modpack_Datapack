@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": " berserker swords.Groups[1].Value.ToUpper() erserker  berserker swords.Groups[1].Value.ToUpper() words Mastery IIII",
+    "description": "Get 750 kills with a  berserker swords.groups[1].value.toupper() erserker  berserker swords.groups[1].value.toupper() words.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}

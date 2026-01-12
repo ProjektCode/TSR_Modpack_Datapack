@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": " heavy crossbows.Groups[1].Value.ToUpper() eavy  heavy crossbows.Groups[1].Value.ToUpper() rossbows Mastery IIII",
+    "description": "Get 750 kills with a  heavy crossbows.groups[1].value.toupper() eavy  heavy crossbows.groups[1].value.toupper() rossbows.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}

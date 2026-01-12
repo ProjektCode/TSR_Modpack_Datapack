@@ -1,0 +1,14 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": " twin blades.Groups[1].Value.ToUpper() win  twin blades.Groups[1].Value.ToUpper() lades Mastery II",
+    "description": "Get 25 kills with a  twin blades.groups[1].value.toupper() win  twin blades.groups[1].value.toupper() lades.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "done": { "trigger": "minecraft:impossible" }
+  }
+}
