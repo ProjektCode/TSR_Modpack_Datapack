@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " great axes.Groups[1].Value.ToUpper() reat  great axes.Groups[1].Value.ToUpper() xes Mastery IIII",
-    "description": "Get 750 kills with a  great axes.groups[1].value.toupper() reat  great axes.groups[1].value.toupper() xes.",
+    "title": "Great Axe Mastery IV",
+    "description": "Get 750 kills with a great axe.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

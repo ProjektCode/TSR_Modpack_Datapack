@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " sais.Groups[1].Value.ToUpper() ais Mastery III",
-    "description": "Get 125 kills with a  sais.groups[1].value.toupper() ais.",
+    "title": "Sai Mastery III",
+    "description": "Get 125 kills with a sai.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

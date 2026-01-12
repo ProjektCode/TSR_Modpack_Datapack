@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " great spears.Groups[1].Value.ToUpper() reat  great spears.Groups[1].Value.ToUpper() pears Mastery III",
-    "description": "Get 125 kills with a  great spears.groups[1].value.toupper() reat  great spears.groups[1].value.toupper() pears.",
+    "title": "Great Spear Mastery III",
+    "description": "Get 125 kills with a great spear.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

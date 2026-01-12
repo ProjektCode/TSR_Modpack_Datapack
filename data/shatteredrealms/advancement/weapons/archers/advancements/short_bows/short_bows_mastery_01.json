@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " short bows.Groups[1].Value.ToUpper() hort  short bows.Groups[1].Value.ToUpper() ows Mastery I",
-    "description": "Get 10 kills with a  short bows.groups[1].value.toupper() hort  short bows.groups[1].value.toupper() ows.",
+    "title": "Short Bow Mastery I",
+    "description": "Get 10 kills with a short bow.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

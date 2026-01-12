@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " great hammers.Groups[1].Value.ToUpper() reat  great hammers.Groups[1].Value.ToUpper() ammers Mastery I",
-    "description": "Get 10 kills with a  great hammers.groups[1].value.toupper() reat  great hammers.groups[1].value.toupper() ammers.",
+    "title": "Great Hammer Mastery I",
+    "description": "Get 10 kills with a great hammer.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

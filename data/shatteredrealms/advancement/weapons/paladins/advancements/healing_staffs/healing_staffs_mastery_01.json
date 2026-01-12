@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " healing staffs.Groups[1].Value.ToUpper() ealing  healing staffs.Groups[1].Value.ToUpper() taffs Mastery I",
-    "description": "Get 10 kills with a  healing staffs.groups[1].value.toupper() ealing  healing staffs.groups[1].value.toupper() taffs.",
+    "title": "Healing Staff Mastery I",
+    "description": "Get 10 kills with a healing staff.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

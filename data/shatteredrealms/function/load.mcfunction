@@ -115,15 +115,41 @@ scoreboard objectives add sr_visited_gold_dungeon dummy
 scoreboard objectives add sr_visited_silver_dungeon dummy
 
 # ============================================
+# PERFORMANCE TRACKING SCOREBOARDS
+# ============================================
+
+# Tracks if player has ANY mastery (skip buff checks for new players)
+scoreboard objectives add sr_has_any_mastery dummy
+
+# Weapon change detection (avoid redundant buff clears)
+scoreboard objectives add sr_current_weapon_id dummy
+scoreboard objectives add sr_last_weapon_id dummy
+
+# Shield change detection
+scoreboard objectives add sr_current_shield_id dummy
+scoreboard objectives add sr_last_shield_id dummy
+
+# Particle tick counter (only show particles every few seconds)
+scoreboard objectives add sr_particle_tick dummy
+
+# Temp scoreboard for milestone calculations
+scoreboard objectives add sr_temp_kills dummy
+
+# ============================================
 # SCHEDULED FUNCTIONS
 # ============================================
 
 # Clear any existing schedules to prevent duplicates on /reload
 schedule clear shatteredrealms:weapons/paladins/check_shield_mastery
 schedule clear shatteredrealms:load_message
+schedule clear shatteredrealms:buffs/tick
 
 # Shield mastery check (runs every second)
 schedule function shatteredrealms:weapons/paladins/check_shield_mastery 20t
 
+# Mastery buff system (runs every 10 ticks = 2x per second for better performance)
+schedule function shatteredrealms:buffs/tick 10t
+
 # Load message
 schedule function shatteredrealms:load_message 30t
+

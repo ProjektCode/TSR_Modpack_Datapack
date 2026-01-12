@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " damage wands.Groups[1].Value.ToUpper() amage  damage wands.Groups[1].Value.ToUpper() ands Mastery II",
-    "description": "Get 25 kills with a  damage wands.groups[1].value.toupper() amage  damage wands.groups[1].value.toupper() ands.",
+    "title": "Damage Wand Mastery II",
+    "description": "Get 25 kills with a damage wand.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

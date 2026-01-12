@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " maces.Groups[1].Value.ToUpper() aces Mastery II",
-    "description": "Get 25 kills with a  maces.groups[1].value.toupper() aces.",
+    "title": "Maces Mastery II",
+    "description": "Get 25 kills with a mace.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,

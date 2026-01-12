@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " guns.Groups[1].Value.ToUpper() uns Mastery IIII",
-    "description": "Get 750 kills with a  guns.groups[1].value.toupper() uns.",
+    "title": "Gun Mastery IV",
+    "description": "Get 750 kills with a gun.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " lances.Groups[1].Value.ToUpper() ances Mastery II",
-    "description": "Get 25 kills with a  lances.groups[1].value.toupper() ances.",
+    "title": "Lance Mastery II",
+    "description": "Get 25 kills with a lance.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

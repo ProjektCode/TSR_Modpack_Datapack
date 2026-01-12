@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " halberds.Groups[1].Value.ToUpper() alberds Mastery II",
-    "description": "Get 25 kills with a  halberds.groups[1].value.toupper() alberds.",
+    "title": "Halberd Mastery II",
+    "description": "Get 25 kills with a halberd.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

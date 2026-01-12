@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " bows.Groups[1].Value.ToUpper() ows Mastery IIII",
-    "description": "Get 750 kills with a  bows.groups[1].value.toupper() ows.",
+    "title": "Bow Mastery IV",
+    "description": "Get 750 kills with a bow.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

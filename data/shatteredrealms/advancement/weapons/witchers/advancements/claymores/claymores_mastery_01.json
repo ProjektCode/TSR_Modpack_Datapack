@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " claymores.Groups[1].Value.ToUpper() laymores Mastery I",
-    "description": "Get 10 kills with a  claymores.groups[1].value.toupper() laymores.",
+    "title": "Claymore Mastery I",
+    "description": "Get 10 kills with a claymore.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }

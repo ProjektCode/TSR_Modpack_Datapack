@@ -1,14 +1,16 @@
 {
   "display": {
     "icon": { "id": "minecraft:iron_sword" },
-    "title": " axes.Groups[1].Value.ToUpper() xes Mastery III",
-    "description": "Get 125 kills with a  axes.groups[1].value.toupper() xes.",
+    "title": "Axe Mastery III",
+    "description": "Get 125 kills with a axe.",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": true
   },
   "criteria": {
-    "done": { "trigger": "minecraft:impossible" }
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
   }
 }
